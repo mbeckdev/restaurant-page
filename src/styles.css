@@ -1,4 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  color: blue;
+  /* color: blue; */
   background: url("./kebab-photo.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  /* border: 1px solid red; */
+  background-color: hsla(10, 50%, 5%, 0.5);
+}
+
+h1 {
+  /* border: 1px solid green; */
+  text-align: center;
+  padding: 10px;
+}
+
+#content {
+  border: 1px solid orange;
+  margin: 20px;
 }

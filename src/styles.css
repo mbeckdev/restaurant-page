@@ -15,6 +15,9 @@ body {
 
 header {
   background-color: hsla(10, 50%, 5%, 0.5);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
 }
 
 h1 {
@@ -22,6 +25,18 @@ h1 {
   padding: 10px;
   font-family: "Cabin Sketch", cursive;
   color: white;
+  border: 1px solid green;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid red;
+}
+li {
+  padding: 0 10px;
+  list-style-type: none;
+  border: 1px solid blue;
 }
 
 #copy-container {

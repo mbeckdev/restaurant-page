@@ -1,8 +1,9 @@
 "use strict";
 
-function createHomeCopy() {
+function loadHomeTab() {
   const copyContainer = document.createElement("div");
   copyContainer.setAttribute("id", "copy-container");
+  const content = document.getElementById("content");
   content.appendChild(copyContainer);
   const p1 = document.createElement("p");
   p1.setAttribute("id", "headline");
@@ -26,4 +27,4 @@ function createHomeCopy() {
   divHype.appendChild(pHype2);
 }
 
-export { createHomeCopy };
+export { loadHomeTab };

@@ -1,5 +1,5 @@
 import Pic from "./kebab-photo.jpeg";
-import { createHomeCopy } from "./page-home.js";
+// import { createHomeCopy } from "./page-home.js";
 
 function loadPage() {
   console.log("it's working now!");
@@ -8,7 +8,7 @@ function loadPage() {
   const content = document.getElementById("content");
   createBackgroundImage();
   createHeader();
-  createHomeCopy();
+  // createHomeCopy();
 
   function createBackgroundImage() {
     const element = document.createElement("div");

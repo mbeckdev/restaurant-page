@@ -68,3 +68,20 @@ li {
   border-radius: 50px;
   padding: 1px;
 }
+
+.menu-item {
+  word-break: normal;
+  margin-left: 2em;
+  text-indent: -2em;
+  /* margin-left: 4em; */
+}
+.menu-row {
+  display: flex;
+  justify-content: space-between;
+}
+.price {
+  margin-left: 10px;
+}
+.menu-container {
+  margin: 1em;
+}

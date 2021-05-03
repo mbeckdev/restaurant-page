@@ -44,6 +44,9 @@ function loadPage() {
     headerNode.appendChild(nav);
   }
 
+  const copyContainer = document.createElement("div");
+  copyContainer.setAttribute("id", "copy-container");
+  content.appendChild(copyContainer);
   // content.appendChild(myPic);
   // content.appendChild(element);
 }

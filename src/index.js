@@ -7,6 +7,6 @@ import { loadMenuTab } from "./page-menu.js";
 import { loadAboutTab } from "./page-about.js";
 
 loadPage();
-loadHomeTab();
-// loadMenuTab();
+// loadHomeTab();
+loadMenuTab();
 // loadAboutTab();

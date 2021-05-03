@@ -1,8 +1,7 @@
 "use strict";
 
 function loadHomeTab() {
-  const copyContainer = document.createElement("div");
-  copyContainer.setAttribute("id", "copy-container");
+  const copyContainer = document.getElementById("copy-container");
   const content = document.getElementById("content");
   content.appendChild(copyContainer);
   const p1 = document.createElement("p");

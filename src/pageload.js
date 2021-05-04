@@ -1,20 +1,7 @@
-// import Pic from "./kebab-photo.jpeg";
-// import { createHomeCopy } from "./page-home.js";
-
 function loadPage() {
-  console.log("it's working now!");
-  console.log("it's working nw!");
-
   const content = document.getElementById("content");
-  // createBackgroundImage();
-  createHeader();
 
-  // function createBackgroundImage() {
-  //   const element = document.createElement("div");
-  //   const myPic = new Image();
-  //   myPic.src = Pic;
-  //   element.appendChild(myPic); //attached to body, no div shows though
-  // }
+  createHeader();
 
   function createHeader() {
     const headerNode = document.createElement("header");

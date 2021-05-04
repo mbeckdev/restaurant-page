@@ -1,15 +1,7 @@
 "use strict";
 
 function loadMenuTab() {
-  console.log("menu tab loaded");
   const copyContainer = document.getElementById("copy-container");
-
-  // const menuItems = {
-  //   item: {
-  //     desc: "EGG AND KABOB",
-  //     price: "5.49",
-  //   },
-  // };
 
   const allDescriptions = [
     "EGG AND KABOB",

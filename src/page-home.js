@@ -1,7 +1,5 @@
 "use strict";
 import Pic from "./kabob_640_428.jpg";
-// import Pic from "./kebab-photo.jpeg";
-// import { createHomeCopy } from "./page-home.js";
 
 function loadHomeTab() {
   const copyContainer = document.getElementById("copy-container");
@@ -29,23 +27,12 @@ function loadHomeTab() {
   divHype.appendChild(pHype2);
 
   const kebabPic = document.createElement("img");
-  // kebabPic.setAttribute("src", "/kabob_640_428.jpg");
+
   kebabPic.src = Pic;
   kebabPic.setAttribute("alt", "Three tasty looking kebabs on a grill");
   kebabPic.setAttribute("width", 640);
   kebabPic.setAttribute("height", 428);
   copyContainer.appendChild(kebabPic);
-
-  // loadPic();
 }
-
-const copyContainer = document.getElementById("copy-container");
-
-// function loadPic() {
-//   const element = document.createElement("div");
-//   const myPic = new Image();
-//   myPic.src = Pic;
-//   element.appendChild(myPic); //attached to body, no div shows though
-// }
 
 export { loadHomeTab };

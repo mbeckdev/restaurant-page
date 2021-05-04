@@ -10,9 +10,6 @@ function loadAboutTab() {
   const p1Text = document.createTextNode(
     "Forged from the fires of flavor, we've been making kabobs since 1924."
   );
-  // const p2Text = document.createTextNode(
-  //   "It all started when Klaus Kabob was sitting at his forge and became hungry. He wondered, 'What if I could put food on a stick and forge food over a fire?'"
-  // );
   const p2Text = document.createTextNode(
     "It all started when Klaus Kabob was sitting at his forge and became hungry. He wondered, 'Instead of using this fire to forge metal, what if I use it to forge food?'"
   );

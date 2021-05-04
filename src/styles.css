@@ -25,7 +25,8 @@ header {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: space-around;
   width: 100%;
 }
 

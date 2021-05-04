@@ -1,6 +1,9 @@
 :root {
-  --tab-color-selected: black;
-  --tab-bkcolor-selected: white;
+  /* --tab-color-selected: #d5cfaf; */
+  --tab-color-selected: #e7e5d7;
+  /* --tab-bkcolor-selected: #0a121f; */
+  --tab-bkcolor-selected: #010105;
+  --top-color: #b61d0e;
   --tab-color-unselected: white;
   --tab-bkcolor-unselected: black;
 }
@@ -12,16 +15,18 @@
 }
 
 body {
-  background: url("./kebab-photo.jpeg");
+  /* background: url("./kebab-photo.jpeg"); */
   background-size: cover;
   background-attachment: fixed;
   font-family: "EB Garamond", serif;
-  color: white;
+  color: var(--tab-color-selected);
+  background-color: var(--tab-bkcolor-selected);
   text-shadow: 1px 1px 3px black, -1px -1px 3px black;
 }
 
 header {
-  background-color: hsla(10, 50%, 5%, 0.5);
+  /* background-color: hsla(10, 50%, 5%, 0.5); */
+  background-color: var(--top-color);
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -35,20 +40,23 @@ h1 {
   text-align: center;
   padding: 10px;
   font-family: "Cabin Sketch", cursive;
-  color: white;
-  border: 1px solid green;
+  color: var(--tab-color-selected);
+  /* border: 1px solid green; */
 }
 
 nav ul {
   display: flex;
   flex-direction: row;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 li {
-  padding: 0 10px;
+  padding: 10px;
   list-style-type: none;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
+}
+li:hover {
+  color: blue;
 }
 
 #copy-container {
@@ -76,8 +84,8 @@ li {
   width: 300px;
   display: flex;
   justify-content: center;
-  background-color: hsla(10, 15%, 15%, 0.25);
-  border-radius: 50px;
+  /* background-color: hsla(10, 15%, 15%, 0.25); */
+  /* border-radius: 50px; */
   padding: 1px;
 }
 

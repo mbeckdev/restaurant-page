@@ -1,4 +1,4 @@
-import Pic from "./kebab-photo.jpeg";
+// import Pic from "./kebab-photo.jpeg";
 // import { createHomeCopy } from "./page-home.js";
 
 function loadPage() {
@@ -6,15 +6,15 @@ function loadPage() {
   console.log("it's working nw!");
 
   const content = document.getElementById("content");
-  createBackgroundImage();
+  // createBackgroundImage();
   createHeader();
 
-  function createBackgroundImage() {
-    const element = document.createElement("div");
-    const myPic = new Image();
-    myPic.src = Pic;
-    element.appendChild(myPic); //attached to body, no div shows though
-  }
+  // function createBackgroundImage() {
+  //   const element = document.createElement("div");
+  //   const myPic = new Image();
+  //   myPic.src = Pic;
+  //   element.appendChild(myPic); //attached to body, no div shows though
+  // }
 
   function createHeader() {
     const headerNode = document.createElement("header");
@@ -46,6 +46,8 @@ function loadPage() {
     ul.appendChild(li3);
     nav.appendChild(ul);
     headerNode.appendChild(nav);
+
+    li1.classList.add("tab-selected");
   }
 
   const copyContainer = document.createElement("div");

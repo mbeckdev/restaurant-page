@@ -8,7 +8,6 @@ function loadPage() {
   const content = document.getElementById("content");
   createBackgroundImage();
   createHeader();
-  // createHomeCopy();
 
   function createBackgroundImage() {
     const element = document.createElement("div");
@@ -30,6 +29,11 @@ function loadPage() {
     const li1 = document.createElement("li");
     const li2 = document.createElement("li");
     const li3 = document.createElement("li");
+
+    li1.setAttribute("id", "main-tab");
+    li2.setAttribute("id", "menu-tab");
+    li3.setAttribute("id", "about-tab");
+
     const li1Text = document.createTextNode("Main");
     const li2Text = document.createTextNode("Menu");
     const li3Text = document.createTextNode("About");

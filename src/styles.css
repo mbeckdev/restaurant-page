@@ -17,7 +17,11 @@ header {
   background-color: hsla(10, 50%, 5%, 0.5);
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
+  /* align-items: flex-end; */
+  align-items: center;
+  justify-content: space-between;
+  /* display: inline-flex; */
+  width: 100%;
 }
 
 h1 {
@@ -69,19 +73,22 @@ li {
   padding: 1px;
 }
 
+.menu-container {
+  margin: 1em;
+}
+
 .menu-item {
   word-break: normal;
   margin-left: 2em;
   text-indent: -2em;
   /* margin-left: 4em; */
 }
+
 .menu-row {
   display: flex;
   justify-content: space-between;
 }
+
 .price {
   margin-left: 10px;
-}
-.menu-container {
-  margin: 1em;
 }

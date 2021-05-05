@@ -2,6 +2,8 @@
 
 A restaurant page created with webpack
 
+https://mbeckdev.github.io/restaurant-page/ <-- See it live here!
+
 Why I made this:
 To practice using webpack.  It makes some sense now! 
 
